@@ -8,8 +8,8 @@ def change
       t.integer :costume_inventory
       t.integer :number_of_employees
       t.boolean :whether_or_not_still_in_business
-      t.datetime.new :open_time
-      t.datetime.new :closing_time
+      t.datetime.new() :open_time
+      t.datetime.new() :closing_time
     end
   end
 end
